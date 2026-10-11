@@ -1,9 +1,10 @@
 function App() {
   return (
-    <div style={{ padding: '20px', fontFamily: 'sans-serif' }}>
-      <h1>Sistem Informasi Yayasan</h1>
-      <p>Fondasi berhasil dimuat tanpa Termux!</p>
+    <div style={{ padding: '20px', color: 'black' }}>
+      <h1>BERHASIL!</h1>
+      <p>Jika Anda membaca ini, website sudah online.</p>
     </div>
   )
 }
+
 export default App
