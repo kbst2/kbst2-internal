@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App' // Hapus .tsx agar lebih kompatibel
-import './index.css'
+import App from './App' 
 
 const rootElement = document.getElementById('root')
 
@@ -12,6 +11,4 @@ if (rootElement) {
       <App />
     </React.StrictMode>,
   )
-} else {
-  console.error('Failed to find the root element')
 }
