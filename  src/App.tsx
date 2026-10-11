@@ -1,8 +1,9 @@
 function App() {
   return (
-    <div style={{ padding: '20px', color: 'black' }}>
-      <h1>BERHASIL!</h1>
-      <p>Jika Anda membaca ini, website sudah online.</p>
+    <div style={{ padding: '20px', color: 'black', fontSize: '20px' }}>
+      <h1>BERHASIL AKHIRNYA!</h1>
+      <p>Website Yayasan Online!</p>
+      <p>{new Date().toLocaleString()}</p>
     </div>
   )
 }
